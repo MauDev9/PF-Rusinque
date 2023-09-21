@@ -21,13 +21,22 @@ header{
     
 }
 
+.navbar-brand{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #afb9b6;
+}
+
 .img-logo{
-    height: 120px;
+    height: 100px;
     width: auto; 
     margin: 0 15px;
 }
 
-
+.nav-item:hover{
+    background-color: #081c15;
+    border-radius:4px;
+}
 
 .fondo{
     background-color: #4e878c38;
