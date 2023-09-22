@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Roboto:wght@300;500&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +12,8 @@
 
 body{
     background-color: #4e878c;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Crimson Text', serif;
 }
 
 
@@ -28,7 +30,7 @@ header{
 }
 
 .img-logo{
-    height: 100px;
+    height: 90px;
     width: auto; 
     margin: 0 15px;
 }
