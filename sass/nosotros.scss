@@ -3,7 +3,6 @@
 .main-nosotros{
     background-image: url(/assets/nosotros.jpg);
     background-size: cover;
-    display: grid;
 }
 
 .main-nosotros h2{
@@ -67,4 +66,10 @@
 }
 .card-ubicacion .card-img{
     background-image: url(/assets/ubicacion.png);
+}
+
+
+//uso de extend.
+.img-card-contacto{
+    @extend .img-servicios
 }

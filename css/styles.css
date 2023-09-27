@@ -183,7 +183,6 @@ footer {
 .main-nosotros {
   background-image: url(/assets/nosotros.jpg);
   background-size: cover;
-  display: grid;
 }
 
 .main-nosotros h2 {
@@ -248,6 +247,48 @@ footer {
 
 .card-ubicacion .card-img {
   background-image: url(/assets/ubicacion.png);
+}
+
+.main-servicios {
+  background-image: url(/assets/servicios.jpg);
+  background-size: cover;
+}
+
+.main-servicios h2 {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.main-servicios article {
+  padding: 30px 30px;
+  font-size: 30px;
+  background-color: rgba(70, 69, 69, 0.1725490196);
+}
+
+.img-servicios, .img-card-contacto {
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card h5 {
+  background-color: cadetblue;
+  border: 2px solid rgba(12, 11, 11, 0.46);
+}
+.card ul {
+  font-size: 25px;
+}
+
+.plan {
+  background-color: rgba(70, 69, 69, 0.1725490196);
+}
+.plan h3 {
+  font-size: 45px;
+}
+.plan p {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

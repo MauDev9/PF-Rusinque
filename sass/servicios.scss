@@ -1,0 +1,49 @@
+
+
+
+
+.main-servicios{
+    background-image: url(/assets/servicios.jpg);
+    background-size: cover;
+}
+
+.main-servicios h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.main-servicios article{
+    padding: 30px 30px;
+    font-size: 30px;
+    background-color: $color-fondo;
+}
+
+
+.img-servicios{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+}
+
+.card{
+    h5{
+        background-color: cadetblue;
+        border: 2px solid rgba(12, 11, 11, 0.46);
+    }
+    ul{
+        font-size: 25px;
+    }
+}
+
+.plan{
+    background-color: $color-fondo;
+    h3{
+        font-size: 45px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
