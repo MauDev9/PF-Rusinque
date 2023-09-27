@@ -1,0 +1,70 @@
+/* Estilos para page"nosotros" */
+
+.main-nosotros{
+    background-image: url(/assets/nosotros.jpg);
+    background-size: cover;
+    display: grid;
+}
+
+.main-nosotros h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #4e878c25;
+}
+
+.main-nosotros article{
+    padding: 30px 30px;
+    font-size: 30px;
+    background-color: #99999978;
+}
+
+.main-nosotros .btn-nosotros{
+        border: 3px solid #081c15;
+        border-radius: 70px;
+        font-size: 30px;
+        margin: 2px;
+        padding: 10px 10px;
+        font-weight: 600;
+        color: #081c15;
+        text-decoration: none;
+        text-transform: uppercase;
+        align-items:center ;
+}
+
+.btn-nosotros:hover{
+    background-color: #afb9b6;
+}
+
+
+.card-img{
+    
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.card h3{
+    color: #081c15;
+    font-size: 25px;
+}
+
+.card p{
+    font-size: 20px;
+    text-align:center;
+}
+
+.card-mision .card-img{
+    background-image: url(/assets/mision.jpg);
+}
+.card-vision .card-img{
+    background-image: url(/assets/vision.jpg);
+}
+.card-elegirnos .card-img{
+    background-image: url(/assets/elegirnos.jpg);
+}
+.card-ubicacion .card-img{
+    background-image: url(/assets/ubicacion.png);
+}
