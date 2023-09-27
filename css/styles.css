@@ -168,11 +168,13 @@ footer{
     font-size: 50px;
     text-align: center;
     padding: 10px 10px;
+    background-color: #4e878c25;
 }
 
 .main-nosotros article{
     padding: 30px 30px;
     font-size: 30px;
+    background-color: #99999978;
 }
 
 .main-nosotros .btn-nosotros{
@@ -192,38 +194,6 @@ footer{
     background-color: #afb9b6;
 }
 
-/* .titulo-cards{
-    width: 100%;
-    background-color: #4e878c;
-    margin-top: 20px;
-    margin-bottom: 6px;
-}
-
-.titulo-cards h4{
-    text-decoration: center;
-    border: 1px solid #081c15;
-    padding: 20px;
-} */
-
-.mas-nosotros{
-    width: 100%;
-    background-color: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px 10px 5px 5px;
-    align-items: center;
-}
-
-
-
-/* .card {
-    width: 25%;
-    height: 350px;
-    text-align: center;
-    margin: 5px;
-    flex-direction: column;
-    background-color: #081c15;
-} */
 
 .card-img{
     
