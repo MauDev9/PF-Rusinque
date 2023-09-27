@@ -64,15 +64,10 @@ header{
     background-color: #afb9b6 !important;
 }
 
-
-.sedes{
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 5px;
+.sedes h5:hover{
     background-color: #4e878c;
-    justify-content: space-between;
-    align-items:center;
 }
+
 
 
 .mapa{
