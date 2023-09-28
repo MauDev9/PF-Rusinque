@@ -48,7 +48,7 @@ header {
 }
 
 .main-inicio {
-  background-image: url(/assets/home.jpg);
+  background-image: url(../assets/home.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -181,7 +181,7 @@ footer {
 }
 /* Estilos para page"nosotros" */
 .main-nosotros {
-  background-image: url(/assets/nosotros.jpg);
+  background-image: url(../assets/nosotros.jpg);
   background-size: cover;
 }
 
@@ -250,7 +250,7 @@ footer {
 }
 
 .main-servicios {
-  background-image: url(/assets/servicios.jpg);
+  background-image: url(../assets/servicios.jpg);
   background-size: cover;
 }
 
@@ -292,7 +292,7 @@ footer {
 }
 
 .main-faqs {
-  background-image: url(/assets/faqs.jpg);
+  background-image: url(../assets/faqs.jpg);
   background-size: cover;
 }
 
