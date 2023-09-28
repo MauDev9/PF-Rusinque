@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
+/*uso de extend y mixins*/
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Roboto:wght@300;500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,10 @@ body {
   font-family: "Crimson Text", serif;
   position: 100vw;
   overflow-x: hidden;
+}
+body h2 {
+  background-color: rgba(78, 135, 140, 0.5843137255);
+  margin: 5px;
 }
 
 header {
@@ -53,13 +58,13 @@ header {
   text-align: center;
 }
 
-.oferta p {
+.main-inicio p {
   font-size: 30px;
   background-color: rgba(175, 185, 182, 0.5529411765);
 }
 
 .main-inicio .btn-oferta:hover {
-  background-color: #afb9b6 !important;
+  background-color: #afb9b6;
 }
 
 .sedes h5:hover {
@@ -143,24 +148,47 @@ footer {
   background: #1da1f2;
 }
 
-/* media queries */
-/* break point small- mobile */
-@media screen and (max-width: 576px) {
+/* media queries inicio mobile first-320-480px */
+@media screen and (max-width: 480px) {
+  .header h1 {
+    display: none;
+  }
   .main-inicio {
     flex-direction: column;
     display: vw100;
   }
+  .main-inicio .info-inicio {
+    padding: 5px 5px !important;
+  }
+  .main-inicio .formulario-contacto {
+    padding: 5px 5px !important;
+  }
+  .main-inicio h2 {
+    font-size: 35px;
+  }
   .main-inicio p {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 10px 10px;
   }
   .fondo {
     background-color: rgba(78, 135, 140, 0.7176470588);
     padding: 10px 10px;
   }
+  .cajas-sedes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px 2px !important;
+  }
+  .cajas-sedes h5 {
+    font-size: 15px;
+  }
   .sedes-inicio ul {
     flex-direction: column;
   }
-  .footer ul {
+  .footer .info-footer {
+    display: none;
+  }
+  .footer .telefonos-footer {
     display: none;
   }
   .main-nosotros h2 {
@@ -186,7 +214,7 @@ footer {
 }
 
 .main-nosotros h2 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   padding: 10px 10px;
   background-color: rgba(78, 135, 140, 0.1450980392);
@@ -249,6 +277,25 @@ footer {
   background-image: url(/assets/ubicacion.png);
 }
 
+@media screen and (max-width: 480px) {
+  .main-nosotros .info-nosotros {
+    padding: 5px 10px !important;
+  }
+  .main-nosotros h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 35px;
+  }
+  .main-nosotros .arti-nosotros {
+    padding: 0 !important;
+  }
+  .main-nosotros p {
+    font-size: 28px;
+    padding: 0 !important;
+  }
+  .main-nosotros a {
+    font-size: 24px;
+  }
+}
 .main-servicios {
   background-image: url(../assets/servicios.jpg);
   background-size: cover;
@@ -263,7 +310,7 @@ footer {
 .main-servicios article {
   padding: 30px 30px;
   font-size: 30px;
-  background-color: rgba(70, 69, 69, 0.1725490196);
+  background-color: rgba(175, 185, 182, 0.5529411765);
 }
 
 .img-servicios, .img-card-contacto {
@@ -273,16 +320,25 @@ footer {
   background-position: center;
 }
 
+.card {
+  background-color: rgba(175, 185, 182, 0.5529411765) !important;
+}
+.card .card-body {
+  padding: 0;
+}
+.card ul {
+  padding: 0;
+}
 .card h5 {
-  background-color: cadetblue;
-  border: 2px solid rgba(12, 11, 11, 0.46);
+  background-color: rgba(78, 135, 140, 0.5843137255);
+  border-radius: 10px solid rgba(12, 11, 11, 0.46);
 }
 .card ul {
   font-size: 25px;
 }
 
 .plan {
-  background-color: rgba(70, 69, 69, 0.1725490196);
+  background-color: rgba(175, 185, 182, 0.5529411765);
 }
 .plan h3 {
   font-size: 45px;
@@ -291,6 +347,35 @@ footer {
   font-size: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  .main-servicios .info-servicios {
+    padding: 5px 10px !important;
+  }
+  .main-servicios h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .main-servicios .arti-servicios {
+    padding: 5px 5px;
+  }
+  .main-servicios p {
+    font-size: 28px;
+    padding: 0 !important;
+  }
+  .main-servicios a {
+    font-size: 24px;
+  }
+  .arti-servicios-2 {
+    padding: 15px 15px !important;
+  }
+  .arti-servicios-2 h3 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+  }
+  .plan {
+    padding: 15px 15px;
+  }
+}
 .main-faqs {
   background-image: url(../assets/faqs.jpg);
   background-size: cover;

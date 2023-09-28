@@ -6,7 +6,7 @@
 }
 
 .main-nosotros h2{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     padding: 10px 10px;
     background-color: #4e878c25;
@@ -69,7 +69,24 @@
 }
 
 
-//uso de extend.
-.img-card-contacto{
-    @extend .img-servicios
+@media screen and (max-width: 480px){
+    .main-nosotros{
+        .info-nosotros{
+            padding: 5px 10px !important;
+        }
+        h2{
+            background-color:$color-fondo-h2;
+            font-size: 35px;
+        }
+        .arti-nosotros{
+            padding: 0 !important;
+        }
+        p{
+            font-size: 28px;
+            padding: 0 !important;
+        }
+        a{
+            font-size: 24px;
+        }
+    }
 }

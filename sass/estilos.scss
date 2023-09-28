@@ -1,3 +1,18 @@
+//variables
+$color-fondo-general:#4e878c;
+$color-fondo:#4645452c;
+$color-fondo-cajas: #afb9b68d;
+$color-fondo-h2:#4e878c95;
+
+/*uso de extend y mixins*/
+.img-card-contacto{
+    @extend .img-servicios;
+}
+
+
+
+
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Roboto:wght@300;500&display=swap');
@@ -11,11 +26,16 @@
 }
 
 body{
-    background-color: #4e878c;
+    background-color: $color-fondo-general;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Crimson Text', serif;
     position: 100vw;
     overflow-x: hidden;
+
+    h2{
+        background-color: $color-fondo-h2;
+        margin: 5px;
+    }
 }
 
 
@@ -59,13 +79,13 @@ header{
     text-align: center;    
 }
 
-.oferta p{
+.main-inicio p{
     font-size: 30px;
     background-color: #afb9b68d;
 }
 
 .main-inicio .btn-oferta:hover{
-    background-color: #afb9b6 !important;
+    background-color: #afb9b6 ;
 }
 
 .sedes h5:hover{
@@ -163,28 +183,63 @@ footer{
 
 
 
-/* media queries */
-/* break point small- mobile */
-@media screen and (max-width: 576px){
+/* media queries inicio mobile first-320-480px */
+
+@media screen and (max-width: 480px){
+    .header{
+        h1{
+            display: none;
+        }
+    }
+
     .main-inicio{
         flex-direction: column;
         display: vw100;
+
+        .info-inicio{
+            padding: 5px 5px !important;
+        }
+
+        .formulario-contacto{
+            padding: 5px 5px !important;
+        }
+        
+    }
+    
+    .main-inicio h2{
+        font-size: 35px;
     }
     .main-inicio p{
-        font-size: 20px;
+        font-size: 30px;
+        padding: 10px 10px;
     }
     .fondo{
         background-color: #4e878cb7;
         padding: 10px 10px;
     }
+
+    .cajas-sedes{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2px 2px !important;
+
+        h5{
+            font-size: 15px;
+        }
+    }
     .sedes-inicio ul{
         flex-direction: column;
     }
-    .footer ul{
-        display: none;
+
+    .footer{
+        .info-footer{
+            display: none;
+        }
+        .telefonos-footer{
+            display: none;
+        }
     }
-
-
+    
     .main-nosotros h2{
         font-size: 25px;
     }
@@ -204,9 +259,8 @@ footer{
     }
 }
 
-//variables
-$color-fondo:#4645452c;
- 
+
+
 
 
 @import "../sass/nosotros.scss";
