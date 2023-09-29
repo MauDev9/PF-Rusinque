@@ -33,8 +33,9 @@
 }
 
 
-@media screen and (min-width:320) and (max-width: 480px){
+@media screen and (min-width:320px) and (max-width:481px){
     .main-contacto{
+        padding: 25px 25px !important;
         .info-contacto{
             padding: 5px 10px !important;
 
@@ -57,23 +58,20 @@
         .formulario-contacto{
             padding: 5px 5px !important;
         }
-
         .arti2-contacto{
-            padding: 5px 5px !important;
+            padding: 35px 35px !important;
             h2{
-                font-size: 35px;
+                font-size: 40px;
             }
             p{
-                font-size: 28px;
+                font-size: 35px;
             }
             ul{
-                font-size: 25px;
+                font-size: 35px;
             }
         }
     }
-
 }
-
 
 
 @media screen and (min-width: 481px) and (max-width:768px){

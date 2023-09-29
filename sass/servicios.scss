@@ -122,3 +122,37 @@
         padding: 35px 35px ;
     }
 }
+
+
+@media screen and (min-width:769px) and (max-width: 1400px){
+    .main-servicios{
+        .info-servicios{
+            padding: 45px 45px !important;
+        }
+        h2{
+            background-color:$color-fondo-h2;
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        .arti-servicios{
+            padding: 35px 35px;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 35px;
+            padding: 0 !important;
+        }
+        a{
+            font-size: 24px;
+        }
+    }
+    .arti-servicios-2{
+        padding: 35px 35px !important;
+        h3{
+            background-color: $color-fondo-h2;
+        }
+    }
+    .plan{
+        padding: 35px 35px ;
+    }
+}

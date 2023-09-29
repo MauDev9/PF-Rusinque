@@ -220,6 +220,43 @@ footer {
     flex-direction: column;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+  .header a {
+    font-size: 25px;
+  }
+  .main-inicio {
+    flex-direction: column;
+    display: vw100;
+  }
+  .main-inicio .info-inicio {
+    padding: 35px 35px !important;
+  }
+  .main-inicio .formulario-contacto {
+    padding: 35px 35px !important;
+  }
+  .main-inicio h2 {
+    font-size: 45px;
+  }
+  .main-inicio p {
+    font-size: 40px;
+    padding: 10px 10px;
+  }
+  .fondo {
+    background-color: rgba(78, 135, 140, 0.7176470588);
+    padding: 10px 10px;
+  }
+  .cajas-sedes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px 2px !important;
+  }
+  .cajas-sedes h5 {
+    font-size: 35px;
+  }
+  .sedes-inicio ul {
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 992px) {
   .footer .info-footer {
     display: none;
@@ -328,6 +365,32 @@ footer {
   }
   .main-nosotros .arti-nosotros {
     padding: 20px 20px !important;
+  }
+  .main-nosotros p {
+    font-size: 35px;
+    padding: 0 !important;
+  }
+  .main-nosotros a {
+    font-size: 28px;
+  }
+  .main-nosotros .card p {
+    font-size: 28px;
+  }
+  .main-nosotros .card a {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .main-nosotros .info-nosotros {
+    padding: 45px 40px !important;
+  }
+  .main-nosotros h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .main-nosotros .arti-nosotros {
+    padding: 25px 25px !important;
   }
   .main-nosotros p {
     font-size: 35px;
@@ -452,6 +515,36 @@ footer {
     padding: 35px 35px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+  .main-servicios .info-servicios {
+    padding: 45px 45px !important;
+  }
+  .main-servicios h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+  .main-servicios .arti-servicios {
+    padding: 35px 35px;
+    margin-bottom: 15px;
+  }
+  .main-servicios p {
+    font-size: 35px;
+    padding: 0 !important;
+  }
+  .main-servicios a {
+    font-size: 24px;
+  }
+  .arti-servicios-2 {
+    padding: 35px 35px !important;
+  }
+  .arti-servicios-2 h3 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+  }
+  .plan {
+    padding: 35px 35px;
+  }
+}
 .main-contacto {
   background-image: url(../assets/contacto.jpg);
   background-size: cover;
@@ -480,7 +573,10 @@ footer {
   font-size: 35px;
 }
 
-@media screen and (min-width: 320) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 481px) {
+  .main-contacto {
+    padding: 25px 25px !important;
+  }
   .main-contacto .info-contacto {
     padding: 5px 10px !important;
   }
@@ -503,16 +599,16 @@ footer {
     padding: 5px 5px !important;
   }
   .main-contacto .arti2-contacto {
-    padding: 5px 5px !important;
+    padding: 35px 35px !important;
   }
   .main-contacto .arti2-contacto h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .main-contacto .arti2-contacto p {
-    font-size: 28px;
+    font-size: 35px;
   }
   .main-contacto .arti2-contacto ul {
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -639,6 +735,46 @@ footer {
   }
   .main-faqs .ubicaciones ul {
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+  .main-faqs h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .main-faqs h3 {
+    font-size: 40px;
+    background: rgba(78, 135, 140, 0.5843137255);
+  }
+  .main-faqs p {
+    font-size: 30px;
+  }
+  .main-faqs .preguntas {
+    padding: 5px 5px !important;
+    margin-bottom: 35px;
+  }
+  .main-faqs .preguntas p {
+    font-size: 25px;
+  }
+  .main-faqs .preguntas a {
+    font-size: 25px;
+  }
+  .main-faqs .info-faqs {
+    padding: 5px !important;
+    background: rgba(70, 69, 69, 0.1725490196);
+  }
+  .main-faqs .info-faqs p {
+    background: rgba(175, 185, 182, 0.5529411765);
+  }
+  .main-faqs .ubicaciones {
+    padding: 35px 35px !important;
+    background: rgba(175, 185, 182, 0.5529411765);
+  }
+  .main-faqs .ubicaciones ul {
+    font-size: 35px;
+  }
+  .main-faqs .img-faqs {
+    position: relative;
   }
 }
 

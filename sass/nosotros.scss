@@ -123,3 +123,35 @@
         }
     }
 }
+
+
+@media screen and (min-width:768px) and (max-width: 1400px){
+    .main-nosotros{
+        .info-nosotros{
+            padding: 45px 40px !important;
+        }
+        h2{
+            background-color:$color-fondo-h2;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        .arti-nosotros{
+            padding: 25px 25px !important;
+        }
+        p{
+            font-size: 35px;
+            padding: 0 !important;
+        }
+        a{
+            font-size: 28px;
+        }
+        .card{
+            p{
+            font-size: 28px; 
+            }
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+}

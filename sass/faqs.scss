@@ -106,3 +106,49 @@
         }
     }
 }
+
+
+@media screen and (min-width:769px) and (max-width: 1400px){
+    .main-faqs{
+        
+        h2{
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 40px;
+            background: $color-fondo-h2;
+        }
+        p{
+            font-size: 30px;
+        } 
+        .preguntas{
+            padding: 5px 5px !important;
+            margin-bottom: 35px; 
+            p{
+                font-size: 25px;
+            }
+            a{
+                font-size: 25px;
+            }  
+        }
+        .info-faqs{
+            padding: 5px !important;
+            background: $color-fondo;
+            p{
+                background: $color-fondo-cajas;
+            }
+        }
+        .ubicaciones{
+            padding: 35px 35px !important;
+            background: $color-fondo-cajas;
+            ul{
+                font-size: 35px;
+            }
+        }
+
+        .img-faqs{
+            position: relative;
+        }
+    }
+}
