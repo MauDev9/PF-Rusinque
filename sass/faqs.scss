@@ -3,14 +3,69 @@
 .main-faqs{
     background-image: url(../assets/faqs.jpg);
     background-size: cover;
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    p{
+        font-size: 35px;
+    } 
+    .preguntas{
+        background: $color-fondo-cajas;
+        margin-bottom: 15px;   
+    }
+    .info-faqs{
+        background: $color-fondo;
+    }
+    .ubicaciones{
+        ul{
+            font-size: 20px;
+            text-align: left;
+        }
+        .img-faqs{
+            height: 450px !important;
+            width: auto !important;
+        }
+    }
+    
+    
+    .icono-faqs{
+        height: 70px;
+        width: 70px;
+    }
 }
 
-.img-faqs{
-    height: 450px !important;
-    width: auto !important;
+
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    .main-faqs{
+        
+        h2{
+            font-size: 35px;
+        }
+        h3{
+            font-size: 30px;
+            background: $color-fondo-h2;
+        }
+        p{
+            font-size: 25px;
+        } 
+        .preguntas{
+            padding: 2px 2px !important;
+            margin-bottom: 15px; 
+            a{
+                font-size: 20px;
+            }  
+        }
+        .info-faqs{
+            background: $color-fondo-cajas;
+        }
+        .ubicaciones{
+            padding: 2px 2px !important;
+        }
+    }
 }
 
-.icono-faqs{
-    height: 70px;
-    width: 70px;
-}
+

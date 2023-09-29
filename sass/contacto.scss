@@ -1,0 +1,115 @@
+.main-contacto {
+    background-image: url(../assets/contacto.jpg);
+    background-size: cover;
+
+    .info-contacto p {
+        padding: 10px 10px !important;
+    }
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .arti-contacto {
+        font-size: 35px;
+        text-align: center;
+        background: $color-fondo-cajas;
+    }
+}
+
+.arti2-contacto {
+    background: $color-fondo-cajas;
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 35px;
+        ;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .main-contacto{
+        .info-contacto{
+            padding: 5px 10px !important;
+
+            h2{
+                background-color:$color-fondo-h2;
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            .arti-contacto{
+                padding: 5px 5px;
+            }
+            p{
+                font-size: 28px;
+                padding: 0 !important;
+            }
+            a{
+                font-size: 24px;
+            }
+        }
+        .formulario-contacto{
+            padding: 5px 5px !important;
+        }
+
+        .arti2-contacto{
+            padding: 5px 5px !important;
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 28px;
+            }
+            ul{
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width:1000px){
+    .main-contacto{
+        .info-contacto{
+            padding: 5px 10px !important;
+
+            h2{
+                background-color:$color-fondo-h2;
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            .arti-contacto{
+                padding: 5px 5px;
+            }
+            p{
+                font-size: 28px;
+                padding: 0 !important;
+            }
+            a{
+                font-size: 24px;
+            }
+        }
+        .formulario-contacto{
+            padding: 5px 5px !important;
+        }
+
+        .arti2-contacto{
+            padding: 5px 5px !important;
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 28px;
+            }
+            ul{
+                font-size: 25px;
+            }
+        }
+    }
+}

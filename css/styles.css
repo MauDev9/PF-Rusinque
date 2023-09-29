@@ -149,7 +149,7 @@ footer {
 }
 
 /* media queries inicio mobile first-320-480px */
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .header h1 {
     display: none;
   }
@@ -185,26 +185,13 @@ footer {
   .sedes-inicio ul {
     flex-direction: column;
   }
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
   .footer .info-footer {
     display: none;
   }
   .footer .telefonos-footer {
     display: none;
-  }
-  .main-nosotros h2 {
-    font-size: 25px;
-  }
-  .main-nosotros p {
-    font-size: 20px;
-  }
-}
-@media (min-width: 481px) {
-  .main-inicio {
-    flex-direction: row;
-    display: vw100;
-  }
-  .mas-nosotros .row {
-    flex-direction: row;
   }
 }
 /* Estilos para page"nosotros" */
@@ -376,19 +363,161 @@ footer {
     padding: 15px 15px;
   }
 }
+.main-contacto {
+  background-image: url(../assets/contacto.jpg);
+  background-size: cover;
+}
+.main-contacto .info-contacto p {
+  padding: 10px 10px !important;
+}
+.main-contacto h2 {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.main-contacto .arti-contacto {
+  font-size: 35px;
+  text-align: center;
+  background: rgba(175, 185, 182, 0.5529411765);
+}
+
+.arti2-contacto {
+  background: rgba(175, 185, 182, 0.5529411765);
+}
+.arti2-contacto h2 {
+  font-size: 50px;
+}
+.arti2-contacto p {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 550px) {
+  .main-contacto .info-contacto {
+    padding: 5px 10px !important;
+  }
+  .main-contacto .info-contacto h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .main-contacto .info-contacto .arti-contacto {
+    padding: 5px 5px;
+  }
+  .main-contacto .info-contacto p {
+    font-size: 28px;
+    padding: 0 !important;
+  }
+  .main-contacto .info-contacto a {
+    font-size: 24px;
+  }
+  .main-contacto .formulario-contacto {
+    padding: 5px 5px !important;
+  }
+  .main-contacto .arti2-contacto {
+    padding: 5px 5px !important;
+  }
+  .main-contacto .arti2-contacto h2 {
+    font-size: 35px;
+  }
+  .main-contacto .arti2-contacto p {
+    font-size: 28px;
+  }
+  .main-contacto .arti2-contacto ul {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  .main-contacto .info-contacto {
+    padding: 5px 10px !important;
+  }
+  .main-contacto .info-contacto h2 {
+    background-color: rgba(78, 135, 140, 0.5843137255);
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .main-contacto .info-contacto .arti-contacto {
+    padding: 5px 5px;
+  }
+  .main-contacto .info-contacto p {
+    font-size: 28px;
+    padding: 0 !important;
+  }
+  .main-contacto .info-contacto a {
+    font-size: 24px;
+  }
+  .main-contacto .formulario-contacto {
+    padding: 5px 5px !important;
+  }
+  .main-contacto .arti2-contacto {
+    padding: 5px 5px !important;
+  }
+  .main-contacto .arti2-contacto h2 {
+    font-size: 35px;
+  }
+  .main-contacto .arti2-contacto p {
+    font-size: 28px;
+  }
+  .main-contacto .arti2-contacto ul {
+    font-size: 25px;
+  }
+}
 .main-faqs {
   background-image: url(../assets/faqs.jpg);
   background-size: cover;
 }
-
-.img-faqs {
+.main-faqs h2 {
+  font-size: 50px;
+}
+.main-faqs h3 {
+  font-size: 45px;
+}
+.main-faqs p {
+  font-size: 35px;
+}
+.main-faqs .preguntas {
+  background: rgba(175, 185, 182, 0.5529411765);
+  margin-bottom: 15px;
+}
+.main-faqs .info-faqs {
+  background: rgba(70, 69, 69, 0.1725490196);
+}
+.main-faqs .ubicaciones ul {
+  font-size: 20px;
+  text-align: left;
+}
+.main-faqs .ubicaciones .img-faqs {
   height: 450px !important;
   width: auto !important;
 }
-
-.icono-faqs {
+.main-faqs .icono-faqs {
   height: 70px;
   width: 70px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-faqs h2 {
+    font-size: 35px;
+  }
+  .main-faqs h3 {
+    font-size: 30px;
+    background: rgba(78, 135, 140, 0.5843137255);
+  }
+  .main-faqs p {
+    font-size: 25px;
+  }
+  .main-faqs .preguntas {
+    padding: 2px 2px !important;
+    margin-bottom: 15px;
+  }
+  .main-faqs .preguntas a {
+    font-size: 20px;
+  }
+  .main-faqs .info-faqs {
+    background: rgba(175, 185, 182, 0.5529411765);
+  }
+  .main-faqs .ubicaciones {
+    padding: 2px 2px !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
