@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (min-width:320px) and (max-width: 480px){
     .main-servicios{
         .info-servicios{
             padding: 5px 10px !important;
@@ -86,5 +86,39 @@
     }
     .plan{
         padding: 15px 15px ;
+    }
+}
+
+
+
+@media screen and (min-width:481px) and (max-width: 768px){
+    .main-servicios{
+        .info-servicios{
+            padding: 35px 35px !important;
+        }
+        h2{
+            background-color:$color-fondo-h2;
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        .arti-servicios{
+            padding: 25px 25px;
+        }
+        p{
+            font-size: 35px;
+            padding: 0 !important;
+        }
+        a{
+            font-size: 24px;
+        }
+    }
+    .arti-servicios-2{
+        padding: 35px 35px !important;
+        h3{
+            background-color: $color-fondo-h2;
+        }
+    }
+    .plan{
+        padding: 35px 35px ;
     }
 }

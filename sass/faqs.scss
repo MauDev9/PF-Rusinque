@@ -3,6 +3,7 @@
 .main-faqs{
     background-image: url(../assets/faqs.jpg);
     background-size: cover;
+    background-position: center;
     h2{
         font-size: 50px;
     }
@@ -64,8 +65,44 @@
         }
         .ubicaciones{
             padding: 2px 2px !important;
+            background: $color-fondo-cajas;
         }
     }
 }
 
 
+
+@media screen and (min-width:481px) and (max-width: 768px){
+    .main-faqs{
+        
+        h2{
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 40px;
+            background: $color-fondo-h2;
+        }
+        p{
+            font-size: 30px;
+        } 
+        .preguntas{
+            padding: 35px 35px !important;
+            margin-bottom: 35px; 
+            a{
+                font-size: 20px;
+            }  
+        }
+        .info-faqs{
+            padding: 35px !important;
+            background: $color-fondo-cajas;
+        }
+        .ubicaciones{
+            padding: 35px 35px !important;
+            background: $color-fondo-cajas;
+            ul{
+                font-size: 25px;
+            }
+        }
+    }
+}

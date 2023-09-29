@@ -234,7 +234,53 @@ footer{
     
 }
 
-@media screen and (min-width:320px) and (max-width: 576px){
+@media screen and (min-width:481px) and (max-width: 768px){
+    
+
+    .main-inicio{
+        flex-direction: column;
+        display: vw100;
+
+        .info-inicio{
+            padding: 35px 35px !important;
+        }
+
+        .formulario-contacto{
+            padding: 35px 35px !important;
+        }
+        
+    }
+    
+    .main-inicio h2{
+        font-size: 40px;
+    }
+    .main-inicio p{
+        font-size: 35px;
+        padding: 10px 10px;
+    }
+    .fondo{
+        background-color: #4e878cb7;
+        padding: 10px 10px;
+    }
+
+    .cajas-sedes{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2px 2px !important;
+
+        h5{
+            font-size: 25px;
+        }
+    }
+    .sedes-inicio ul{
+        flex-direction: column;
+    }
+
+    
+}
+
+
+@media screen and (min-width:320px) and (max-width: 992px){
     .footer{
         .info-footer{
             display: none;
