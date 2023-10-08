@@ -675,6 +675,9 @@ footer {
   height: 450px !important;
   width: auto !important;
 }
+.main-faqs .ubicaciones p {
+  background-color: rgba(78, 135, 140, 0.5843137255);
+}
 .main-faqs .icono-faqs {
   height: 70px;
   width: 70px;

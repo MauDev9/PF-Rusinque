@@ -29,6 +29,9 @@
             height: 450px !important;
             width: auto !important;
         }
+        p{
+            background-color: $color-fondo-h2;
+        }
     }
     
     
@@ -145,6 +148,7 @@
             ul{
                 font-size: 35px;
             }
+            
         }
 
         .img-faqs{
